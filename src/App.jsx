@@ -78,6 +78,9 @@ export default function App() {
         </Button>
         <Button className='numBtn operatorColor' onClick={() => handleButtonClick('=')}>=</Button>
       </div>
+      <div className='name-container' style={{color: "#fff", marginTop: "20px"}}>
+        <p>&copy; Julyza Peña</p>
+      </div>
     </div>
   );
 }
