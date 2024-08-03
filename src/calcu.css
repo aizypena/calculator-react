@@ -1,0 +1,50 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6e6e6e;
+}
+
+.calcu-container {
+    width: 300px;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    border-radius: 30px;
+}
+.numBtn {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border-width: 0;
+    font-size: 20px;
+    margin: 2% 1%;
+}
+
+.numColor {
+    background-color: #333333;
+}
+
+.operatorColor {
+    background-color: #FF9503;
+}
+
+.otherColor {
+    background-color: #A7A6A7;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+#result-container {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0 4%;
+    height: 50px;
+}
